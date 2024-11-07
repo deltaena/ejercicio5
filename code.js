@@ -5,7 +5,7 @@ function getPlayers(){
     let url = "https://api.balldontlie.io/v1/players"
     let headers = new Headers()
 
-    headers.append('Authorization', 'e1332d60-dc1b-4070-b072-ebf1c2713823');
+    headers.append('Authorization', 'api-key');
     
     fetch(url, 
         {
